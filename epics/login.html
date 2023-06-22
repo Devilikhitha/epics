@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Background Login Screen</title>
+  <script type="text/javascript">
+      function myFunction()
+       {
+        window.location.href="webpage.html";
+        }
+  </script>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <style type="text/css">
+  	.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+ }
+ button {
+  background-color:#6699CC;
+  color: white;
+        font-size: 19px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+     cursor: pointer;
+  width: 100%;
+ }
+ 
+ 
+ button:hover {
+  opacity: 0.8;
+ }
+ .container {
+  padding: 16px;
+  width: 500px;
+ }
+
+ 
+ span.psw {
+  float: right;
+  padding-top: 16px;
+ }
+ 
+ @media screen and (max-width: 300px) {
+  span.psw {
+   display: block;
+   float: none;
+  }
+  .cancelbtn {
+   width: 100%;
+  }
+ }
+ body{
+ 	margin-top: 5%;
+ }
+
+  </style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="/action_page.php">
+<div class="container">
+	<div id="login-box">
+			<img src="http://placehold.it/100x100?text=DD" class="img img-responsive img-circle center-block"/>
+			<h1 class="logo-caption"><span class="tweak">L</span>ogin</h1>
+		</div><!-- /.logo -->
+		<div class="controls">
+   <input type="text" placeholder="Enter Username" name="uname" required class="form-control" >
+   <input type="password" placeholder="Enter Password" name="passw" required class="form-control" >
+   <button type="button" class="btn btn-default btn-block btn-custom"  >Login</button>
+   <input type="checkbox" checked="checked"><font color="white"> Remember me</font>
+   <div class="container" >
+   <button type="button" class="cancelbtn">Cancel</button>
+   <span class="psw"><font color="white">Forgot <a href="">password?</a></font></span>
+  </div>
+  </div>
+		</div>
+	</div>
+
+</div>
+</form>
+<div id="particles-js"></div>
+<!-- partial -->
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'></script>
+<script src='https://code.jquery.com/jquery-1.11.1.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
